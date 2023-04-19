@@ -58,7 +58,7 @@ def shoot(x, y, canvas):
         field[y][x] = 2
         canvas.create_rectangle(
             x*50+2, y*50+2, x*50+51, y*50+51,
-            outline='brown', fill='red')
+            outline='brown', fill='yellow')
         return True
     if (field[y][x] == 2):
         return True
