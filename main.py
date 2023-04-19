@@ -18,6 +18,6 @@ while not field.isGameOver():
     kill = field.shoot(x, y, canvas)
     belovFleet.observe(x, y, kill)
     canvas.update()
-    time.sleep(0.5)
+    time.sleep(0.1)
 
 field.showGameOver()
