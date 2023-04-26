@@ -19,7 +19,7 @@ def drawField(canvas):
     for i in range(0, 10):
         for j in range(0, 10):
             canvas.create_rectangle(i*50+2, j*50+2, i*50+51, j*50+51,
-                    outline='brown', fill='white')
+                    outline='green', fill='white')
 
 def placeShips():
     # ToDo: реализовать алгоритм заполнения
@@ -58,7 +58,7 @@ def shoot(x, y, canvas):
         field[y][x] = 2
         canvas.create_rectangle(
             x*50+2, y*50+2, x*50+51, y*50+51,
-            outline='brown', fill='red')
+            outline='brown', fill='yellow')
         return True
     if (field[y][x] == 2):
         return True
