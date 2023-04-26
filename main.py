@@ -3,6 +3,8 @@ import time
 import field
 import belovFleet
 
+#Это вакумный пылесос от Вермахта
+
 root = Tk()
 canvas = Canvas(root, width=500, height=500)
 canvas.pack()
