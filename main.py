@@ -7,7 +7,7 @@ root = Tk()
 canvas = Canvas(root, width=500, height=500)
 canvas.pack()
 canvas.create_rectangle(0, 0, 500, 500,
-                        outline='blue', fill='white')
+                        outline='green', fill='white')
 field.drawField(canvas)
 field.placeShips()
 
@@ -19,6 +19,5 @@ while not field.isGameOver():
     belovFleet.observe(x, y, kill)
     canvas.update()
     time.sleep(0.5)#поминяу
-    
 
 field.showGameOver()
