@@ -19,7 +19,7 @@ def drawField(canvas):
     for i in range(0, 10):
         for j in range(0, 10):
             canvas.create_rectangle(i*50+2, j*50+2, i*50+51, j*50+51,
-                    outline='brown', fill='white')
+                    outline='green', fill='white')
 
 def placeShips():
     # ToDo: реализовать алгоритм заполнения
